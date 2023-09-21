@@ -1,6 +1,7 @@
-# shopwareConfigElements
-
-Shopware 6.5 only
+# Extended Plug-In components for Shopware 6.5
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
+[![Packagist Version](https://img.shields.io/packagist/v/jbl/shopware-config-elements.svg?style=flat&include_prereleases)](https://packagist.org/packages/papyrus/symfony-serializer)
+[![PHP Version](https://img.shields.io/badge/php-%5E8.0-8892BF.svg?style=flat)](http://www.php.net)
 
 Since shopware's plug-in config only supports some default Elements and some pre-defined components,  
 this repository aims to extend it by a bunch of new elements.  
@@ -16,15 +17,19 @@ Make sure to pre-build the assets and commit the compiled JS as well.
 ### activate bundle
 open config/bundles.php and add to array:
 
-```Jbl\ShopwareConfigElements\JblShopwareConfigElements::class => ['all' => true]```
+```php
+Jbl\ShopwareConfigElements\JblShopwareConfigElements::class => ['all' => true]
+```
 
 ### copy assets
-```bin/console assets:install```
+```bash
+bin/console assets:install
+```
 
 ## Config Elements
 
 ### jbl-cta
-```
+```xml
 <component name="jbl-cta">
     <name>uniqueName</name>
     <headline>This is a headline</headline>

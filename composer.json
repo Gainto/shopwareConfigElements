@@ -2,6 +2,8 @@
   "name": "jbl/shopware-config-elements",
   "type": "symfony-bundle",
   "description": "Adds a bunch of additional config elements for the administration",
+  "keywords": ["shopware", "symfony", "bundle"],
+  "license": "MIT",
   "require": {
     "php": "^7.4",
     "symfony/framework-bundle": "^5.0"

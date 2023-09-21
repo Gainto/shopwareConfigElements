@@ -2,6 +2,10 @@
 
 Shopware 6.5 only
 
+Since shopware's plug-in config only supports some default Elements and some pre-defined components,  
+this repository aims to extend it by a bunch of new elements.  
+Feel free to add your own or to adjust the existing ones.
+
 ## Install
 
 ### install bundle
@@ -9,6 +13,7 @@ Shopware 6.5 only
 
 ### activate bundle
 open config/bundles.php and add to array:
+
 ```Jbl\ShopwareConfigElements\JblShopwareConfigElements::class => ['all' => true]```
 
 ### copy assets

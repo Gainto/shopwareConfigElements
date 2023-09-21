@@ -46,7 +46,7 @@ bin/console assets:install
 
 
 ### jbl-simple-text
-```
+```xml
 <component name="jbl-simple-text">
     <name>uniqueName</name>
     <text>This element simply displays some regular text.</text>

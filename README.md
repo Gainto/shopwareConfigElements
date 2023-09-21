@@ -12,16 +12,20 @@ Make sure to pre-build the assets and commit the compiled JS as well.
 ## Install
 
 ### install bundle
-```require jbl/shopware-config-elements:dev-main```
+Install via composer:  
+```bash
+composer require jbl/shopware-config-elements:dev-main
+```
 
 ### activate bundle
-open config/bundles.php and add to array:
+open ```config/bundles.php``` and add to the end of the array:
 
 ```php
 Jbl\ShopwareConfigElements\JblShopwareConfigElements::class => ['all' => true]
 ```
 
 ### copy assets
+execute in console  
 ```bash
 bin/console assets:install
 ```

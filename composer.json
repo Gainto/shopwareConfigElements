@@ -1,0 +1,14 @@
+{
+  "name": "jbl/shopware-config-elements",
+  "type": "symfony-bundle",
+  "description": "Adds a bunch of additional config elements for the administration",
+  "require": {
+    "php": "^7.4",
+    "symfony/framework-bundle": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jbl\\JblShopwareConfigElements\\": "src/"
+    }
+  }
+}
